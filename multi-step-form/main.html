@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Step Application</title>
+    <link rel="stylesheet" href="design.css">
+    <script></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Sen:wght@400;700;800&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+
+    <div class="container">
+
+
+        <div class="side_bar">
+                <img class="side_img" src="images/bg-sidebar-desktop.svg"/>
+
+            <div class="step_1">
+                <p class="num_1"> 1 </p>
+                <small class="small_step_1" >Step 1</small>
+                <small class="small_your_info_1" >YOUR INFO</small>
+            </div>
+
+            <div class="step_2">
+                <p class="num_2"> 2 </p>
+                <small class="small_step_2" >Step 2</small>
+                <small class="small_your_info_2" >SELECT PLAN</small>
+            </div>
+
+            <div class="step_3">
+                <p class="num_3"> 3 </p>
+                <small class="small_step_3" >Step 3</small>
+                <small class="small_your_info_3" >ADD-ONS</small>
+            </div>
+
+            <div class="step_4">
+                <p class="num_4"> 4 </p>
+                <small class="small_step_4" >Step 4</small>
+                <small class="small_your_info_4" >SUMMARY</small>
+            </div>
+
+
+
+
+        
+        </div>
+        <div class="tab">
+        <div class="main_bar">
+            <h1 class="select_heading">Personal info</h1>
+            <p class="option_billing"> Please provide your name, email address, and phone number</p>
+
+            <form class="form_field" >
+
+                <label> <p class="error">This field is required</p> Name</label>
+     
+                <input type="text" placeholder="e.g. Stephen King" class="name_field">
+                
+
+                <label>  <span class="error">This field is required</span>Email Address</label>
+               
+                <input type="email" placeholder="e.g. stephenking@lorem.com" class="email_field" >
+                
+
+                <label><span class="error">This field is required</span>Phone Number </label>
+                
+                <input type="number" placeholder="e.g. +1 234 567 890" class="number_field">
+            
+
+            </form>
+
+          
+ 
+
+            <button class="next_step" id="nextBtn" onclick="nexttab()">Next Step </button>
+ </div>
+              
+        </div>
+
+
+
+        
+       
+            <div class="main_bar_2">
+                
+                <h1 class="select_plan_heading">Select your plan</h1>
+                <p  class="option_billing  " >  You have the option of monthly or yearly billing</p>
+
+                <div class="arcade">
+                    <img class="arcade_img" src="images/icon-arcade.svg">
+                    <div class="small_det">
+                    <p class="p_arcade">Arcade</p>
+                    <p class="p_9_month">$9/mo </p>
+                    </div>
+                </div>
+
+                <div class="advanced">
+                    <img class="advanced_img" src="images/icon-advanced.svg">
+                    <div class="small_det">
+                    <p class="p_advanced">Advanced</p>
+                    <p class="p_12_month">$12/mo </p>
+                    </div>
+                </div>
+
+                <div class="pro">
+                    <img class="pro_img" src="images/icon-pro.svg">
+                    <div class="small_det">
+                    <p class="p_pro">Pro</p>
+                    <p class="p_15_month">$15/mo </p>
+                    </div>
+                </div>
+
+
+         
+
+
+                
+           
+        </div>
+
+
+
+   
+
+
+
+    
+
+   
+    
+</body>
+</html>
